@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="page-container">
+        <p class="tag">LikeLion_14th_Front-end_고성채</p>
+        <h1 class="title">공통세션 Django 기초 2주차 과제</h1>
+        <h6 class="subtitle">저는 고성채입니다.</h6>
+
+        <div class="section">
+            <div class="section-title">1. 프로필</div>
+            <ul>
+                <li><strong>이름:</strong> 고성채 🐵</li>
+                <li><strong>학과:</strong> 전자전기공학부</li>
+                <li><strong>MBTI:</strong> ISFP</li>
+                <li><strong>혈액형:</strong> O형</li>
+                <li><strong>별자리:</strong> 게자리 🦀</li>
+                <li><strong>목표:</strong> 프론트엔드 마스터하기! 🧑‍💻</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">2. 취미</div>
+            <ul>
+                <li><strong>동물 구경하기:</strong> 모든 동물들을 좋아합니다. 🐳</li>
+                <li><strong>체스:</strong> 심심할 때 체스하기 ♟️</li>
+                <li><strong>드럼:</strong> 드럼 연주하기 🥁</li>
+                <li><strong>멍 때리기:</strong> 아무 생각 안하기</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">3. TMI</div>
+            <ul>
+                <li><strong>기상시간:</strong> 4/5 일요일 10:30 기상 ☀️</li>
+                <li><strong>오늘의 업적:</strong> 신공 1층 나가는 길에 연등을 목격 🏮</li>
+                <li><strong>추천 음료:</strong> 캐모마일 따뜻하게</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="section-title">4. 나의 모습</div>
+            <p style="color: #555555; margin-bottom: 10px;">저의 리즈시절 입니다.</p>
+            <img src="{% static 'images/profie.jpg' %}" alt="리즈시절" width="400px">
+        </div>
+    </div>
+{% endblock %}
